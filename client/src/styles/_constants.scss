@@ -1,1 +1,15 @@
-$color: #5e1dc6;
+@function rem-calc($size) {
+    $remSize: $size / 16;
+    @return #{$remSize}rem;
+}
+
+// =========================================================
+// COLORS
+// =========================================================
+
+$metal: #292f36;
+$white: white;
+$cream: #f7fff7;
+$purple: #845ec2;
+$gray: #d9e8ee;
+$green-blue: #34839c;
