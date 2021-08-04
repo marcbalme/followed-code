@@ -57,3 +57,14 @@ $xlarge-size: 1200px;
         @content;
     }
 }
+
+// =========================================================
+// FONTFACE
+// =========================================================
+
+$main-font-face: "Roboto";
+$global-letter-spacing: 0.3px;
+@font-face {
+    src: url("../assets/fonts/RobotoSlab-VariableFont_wght.woff2") format("woff2");
+    font-family: "Roboto";
+}
