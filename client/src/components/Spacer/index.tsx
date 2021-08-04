@@ -26,7 +26,7 @@ const Spacer = (props: SpacerProps) => {
             height: ${typeProps(props.height)};
             background: red;
         }
-        @media (min-width: 640px) {
+        @media (min-width: 768px) {
             .spacer-${randomString} {
                 width: ${
                   props.mWidth

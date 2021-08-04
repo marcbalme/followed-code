@@ -1,13 +1,13 @@
 import './styles/App.scss';
 import Routing from './components/Router';
-import HeaderDesktop from './components/Header/desktop';
 import { BrowserRouter as Router } from 'react-router-dom';
+import Header from './components/Header';
 
 function App() {
   return (
     <Router>
       <div className='App'>
-        <HeaderDesktop />
+        <Header />
         <Routing />
       </div>
     </Router>
