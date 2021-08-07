@@ -1,7 +1,7 @@
-import HeaderArea from '../HeaderArea';
+import StyledHeader from './styles';
 
 const Header = () => {
-  return <HeaderArea>test</HeaderArea>;
+  return <StyledHeader>Header</StyledHeader>;
 };
 
 export default Header;
