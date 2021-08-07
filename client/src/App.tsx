@@ -3,6 +3,7 @@ import Routing from './components/Router';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Header from './components/Header';
 import GlobalStyle from './styles/globalStyles';
+import Spacer from './components/Spacer';
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
       <GlobalStyle />
       <div className='App'>
         <Header />
+        <div>test</div>
+        <Spacer height={100} mediumHeight={500} />
+        <div>patate</div>
         <Routing />
       </div>
     </Router>

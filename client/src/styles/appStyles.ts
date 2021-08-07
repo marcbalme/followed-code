@@ -17,9 +17,10 @@ const size = {
   desktop: '1200px'
 };
 
-export const device = {
-  mobile: `(min-width: ${size.mobile})`,
-  tablet: `(min-width: ${size.tablet})`,
-  laptop: `(min-width: ${size.laptop})`,
-  desktop: `(min-width: ${size.desktop})`
+export const breakpoint = {
+  smallOnly: `@media screen and (max-width: ${size.mobile})`,
+  mobileL: `@media screen and (min-width: ${size.mobile})`,
+  tablet: `@media screen and (min-width: ${size.tablet})`,
+  laptop: `@media screen and (min-width: ${size.laptop})`,
+  desktop: `@media screen and (min-width: ${size.desktop})`
 };
