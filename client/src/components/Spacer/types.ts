@@ -1,4 +1,4 @@
-export interface SpacerProps {
+export interface SpacerPropsTypes {
   width?: number | string;
   mediumWidth?: number | string | null;
   largeWidth?: number | string | null;

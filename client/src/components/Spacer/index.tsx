@@ -1,7 +1,7 @@
 import StyledSpacer from './styles';
-import { SpacerProps } from './types';
+import { SpacerPropsTypes } from './types';
 
-const Spacer: React.FC<SpacerProps> = props => (
+const Spacer: React.FC<SpacerPropsTypes> = props => (
   <StyledSpacer {...props} style={props.customStyle} />
 );
 

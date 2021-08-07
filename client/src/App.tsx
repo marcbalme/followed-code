@@ -3,19 +3,17 @@ import Routing from './components/Router';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Header from './components/Header';
 import GlobalStyle from './styles/globalStyles';
-import Spacer from './components/Spacer';
+import Main from './components/Main';
 
 function App() {
   return (
     <Router>
       <GlobalStyle />
-      <div className='App'>
+      <Main>
         <Header />
         <div>test</div>
-        <Spacer height={100} mediumHeight={500} />
-        <div>patate</div>
         <Routing />
-      </div>
+      </Main>
     </Router>
   );
 }
