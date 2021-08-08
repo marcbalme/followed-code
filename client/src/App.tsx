@@ -3,6 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Header from './components/Header';
 import GlobalStyle from './styles/globalStyles';
 import Main from './components/Main';
+import Text from './components/Text';
 
 function App() {
   return (
@@ -10,7 +11,9 @@ function App() {
       <GlobalStyle />
       <Main>
         <Header />
-        <div>test</div>
+        <Text bold italic>
+          lala
+        </Text>
         <Routing />
       </Main>
     </Router>
