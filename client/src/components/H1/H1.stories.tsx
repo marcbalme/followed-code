@@ -2,7 +2,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import H1 from '.';
 
 export default {
-  title: 'Example/H1',
+  title: 'Example/title',
   component: H1,
   argTypes: {
     backgroundColor: { control: 'color' }
