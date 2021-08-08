@@ -5,7 +5,7 @@ const GlobalStyle = createGlobalStyle`
     body {
         margin: 0;
         padding: 0;
-        background: ${appStyles.colors.cream};
+        background: ${appStyles.colors.background};
         font-family:Roboto;
         letter-spacing: ${appStyles.letterSpacing};
         -webkit-font-smoothing: antialiased;

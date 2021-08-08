@@ -24,7 +24,7 @@ const Text = ({
 );
 
 Text.defaultProps = {
-  theme: appStyles.colors.metal,
+  theme: appStyles.colors.white,
   bold: false,
   italic: false,
   align: 'left',

@@ -19,13 +19,13 @@ export const Default = Template.bind({});
 export const Small = Template.bind({});
 Small.args = {
   size: 'small',
-  theme: appStyles.colors.purple
+  theme: appStyles.colors.orange
 };
 
 export const Large = Template.bind({});
 Large.args = {
   size: 'large',
-  theme: appStyles.colors.purple,
+  theme: appStyles.colors.orange,
   bold: true
 };
 
