@@ -3,6 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Header from './components/Header';
 import GlobalStyle from './styles/globalStyles';
 import Main from './components/Main';
+import H2 from './components/H2';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <GlobalStyle />
       <Main>
         <Header />
-        <div>test</div>
+        <H2>test</H2>
         <Routing />
       </Main>
     </Router>

@@ -8,7 +8,7 @@ const StyledHeader = styled.section`
   left: 0;
   right: 0;
   height: ${remCalc(60)};
-  background: ${appStyles.colors.metal};
+  background: ${appStyles.colors.darkGray};
   color: ${appStyles.colors.white};
   ${breakpoint.tablet} {
     height: ${remCalc(80)};
